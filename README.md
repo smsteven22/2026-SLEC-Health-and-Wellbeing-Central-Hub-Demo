@@ -45,7 +45,7 @@ cd 2026-SLEC-Health-and-Wellbeing-Central-Hub-Demo
 If your React app lives inside a subdirectory (e.g. `wellness-app`), navigate into it:
 
 ```bash
-cd wellness-app
+cd health_wellbeing_hub
 ```
 
 If your `package.json` is at the root of the repo, skip this step.
