@@ -1,6 +1,6 @@
 # Caltech Student Resource Hub
 
-A centralized wellness and resource hub for Caltech undergraduates. Built with React and Vite, the hub organizes campus resources across 8 tabbed sections —- food, physical health, mental health, academics, housing, support, and campus services -- with a visual flowchart on the home page to help students quickly find what they need.
+A centralized wellness and resource hub for Caltech undergraduates. Built with React and Vite, the hub organizes campus resources across 8 tabbed sections -- food, physical health, mental health, academics, housing, support, and campus services -- with a visual flowchart on the home page to help students quickly find what they need.
 
 A video walkthrough of the website can be found at the following link: https://drive.google.com/file/d/1C2zUy8xCNCpIAxL5fK1dtOZYpz0YUYnL/view?usp=share_link
 
@@ -44,13 +44,11 @@ cd 2026-SLEC-Health-and-Wellbeing-Central-Hub-Demo
 
 ### 3. Navigate into the Vite app folder
 
-If your React app lives inside a subdirectory (e.g. `wellness-app`), navigate into it:
+The React app lives inside a subdirectory (`health_wellbeing_hub`), so navigate into it:
 
 ```bash
 cd health_wellbeing_hub
 ```
-
-If your `package.json` is at the root of the repo, skip this step.
 
 ### 4. Install dependencies
 
