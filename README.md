@@ -2,6 +2,8 @@
 
 A centralized wellness and resource hub for Caltech undergraduates. Built with React and Vite, the hub organizes campus resources across 8 tabbed sections —- food, physical health, mental health, academics, housing, support, and campus services -- with a visual flowchart on the home page to help students quickly find what they need.
 
+A video walkthrough of the website can be found at the following link: https://drive.google.com/file/d/1C2zUy8xCNCpIAxL5fK1dtOZYpz0YUYnL/view?usp=share_link
+
 ---
 
 ## Prerequisites
