@@ -1,0 +1,120 @@
+/* .nav {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+.nav-tab-group {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 0.5rem;
+}
+
+.nav-tab {
+  all: unset; /* strips browser button defaults */
+  /* padding: 0.4rem 1.1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: background 0.15s, border-color 0.15s;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.nav-tab:hover {
+  background: #e8e8e8;
+}
+
+.nav-tab.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+} */
+
+.nav-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 56px;
+  }
+  
+  .nav-logo {
+    font-size: 1.1rem;
+    color: #111;
+    letter-spacing: -1px;
+    user-select: none;
+  }
+  
+  .nav-tabs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: #f2f2f0;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  
+  .nav-pill {
+    position: absolute;
+    top: 4px;
+    height: calc(100% - 8px);
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: left 0.22s cubic-bezier(0.4, 0, 0.2, 1),
+                width 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+  }
+  
+  .nav-tab {
+    all: unset;
+    position: relative;
+    z-index: 1;
+    padding: 0.35rem 1.1rem;
+    border-radius: 7px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.18s ease;
+    white-space: nowrap;
+    user-select: none;
+  }
+  
+  .nav-tab:hover {
+    color: #333;
+  }
+  
+  .nav-tab.active {
+    color: #111;
+  }
